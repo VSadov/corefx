@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+	<CLRTestOtherProject Include="$(MSBuildThisFileFullPath)"/>
+    <CLRTestContractReference Include="System.Collections.Concurrent" />
+    <CLRTestContractReference Include="System.Collections" />
+    <CLRTestContractReference Include="System.ComponentModel" />
+    <CLRTestContractReference Include="System.ComponentModel.EventBasedAsync" />
+    <CLRTestContractReference Include="System.Diagnostics.Contracts" />
+    <CLRTestContractReference Include="System.Diagnostics.Debug" />
+    <CLRTestContractReference Include="System.Diagnostics.Tools" />
+    <CLRTestContractReference Include="System.Diagnostics.Tracing" />
+    <CLRTestContractReference Include="System.Globalization" />
+    <CLRTestContractReference Include="System.IO.Compression" />
+    <CLRTestContractReference Include="System.IO" />
+    <CLRTestContractReference Include="System.Linq" />
+    <CLRTestContractReference Include="System.ObjectModel" />
+    <CLRTestContractReference Include="System.Reflection" />
+    <CLRTestContractReference Include="System.Reflection.Extensions" />
+    <CLRTestContractReference Include="System.Reflection.Primitives" />
+    <CLRTestContractReference Include="System.Runtime" />
+    <CLRTestContractReference Include="System.Runtime.Extensions" />
+    <CLRTestContractReference Include="System.Runtime.Numerics" />
+    <CLRTestContractReference Include="System.Security.Principal" />
+    <CLRTestContractReference Include="System.Text.Encoding" />
+    <CLRTestContractReference Include="System.Text.Encoding.Extensions" />
+    <CLRTestContractReference Include="System.Text.RegularExpressions" />
+    <CLRTestContractReference Include="System.Threading" />
+    <CLRTestContractReference Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)\Helper.cs" />
+  </ItemGroup>
+</Project>
